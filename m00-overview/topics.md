@@ -1,0 +1,48 @@
+# Themenübersicht
+
+- Modul 1: Primitive Datentypen, Variablen und Strings
+  - Primitive Datentypen und Variablen deklarieren
+  - Die String-Klasse: wichtige Methoden und Verkettung
+- Modul 2: Konsolen-Ein-/Ausgabe
+  - Ausgeben mit System.out.println/printf
+  - Einlesen mit Scanner
+- Modul 3: Methoden (Funktionen)
+  - Warum Methoden? Parameter, Rückgabewert
+  - ZahlenJagd als Methode: Zufallszahl erzeugen und Ratewert prüfen
+  - Statische Hilfsmethoden und defensive Programmierung
+- Modul 4: Bedingungen
+  - if/else-Ketten
+  - switch-case für Mehrfachauswahl
+  - ZahlenJagd-Bedingungen und Schwierigkeitsauswahl (Integration)
+- Modul 5: Schleifen
+  - while/do-while
+  - for-Schleife
+  - Mehrere Rateversuche in einer Schleife
+- Modul 6: Arrays einführen
+  - Warum ein Array? Deklaration und Zugriff
+  - Array in einer Schleife befüllen
+  - Versuchshistorie im Array
+- Modul 7: Arrays und Schleifen kombinieren
+  - for/for-each über ein Array
+  - Werte suchen, zählen, aufsummieren
+  - Statistik über die Versuchshistorie
+- Modul 8: Array-Algorithmen und ArrayList
+  - Einfache Sortierung (Bubble Sort oder Arrays.sort)
+  - Vom festen Array zur ArrayList<T>
+  - Highscore-Liste: Array-Sortierung, dann ArrayList
+- Modul 9: Fehler abfangen
+  - try-catch-Grundlagen
+  - Ungültige Eingaben behandeln
+  - Nicht-Zahl-Eingaben bei ZahlenJagd abfangen
+- Modul 10: Klassen, Objekte und Kapselung
+  - Klassen, Attribute, Konstruktoren
+  - Kapselung: private Felder, Getter/Setter
+  - ZahlenJagd-Logik in eine Klasse umbauen
+- Modul 11: Vererbung und Interfaces
+  - Basisklasse und abgeleitete Klassen
+  - Methoden mit @Override anpassen
+  - Comparable-Interface für sortierbare Highscore-Einträge
+- Modul 12: Projektabschluss
+  - Alle Bausteine zusammenführen
+  - Code-Review und letzte Verbesserungen
+  - Die fertige ZahlenJagd-Anwendung

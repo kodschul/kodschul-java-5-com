@@ -72,4 +72,5 @@ game.play(scanner);
 **Checkpoint:** Dein Spiel funktioniert unverändert (richtig/zu hoch/zu
 niedrig, Fehlerbehandlung), jetzt aber als Objekt mit Konstruktor.
 
-Weiter geht es mit Modul 11: Vererbung und Interfaces.
+Weiter geht es mit Lab 10.4: statische Felder/Methoden und lokale
+final-Variablen.
