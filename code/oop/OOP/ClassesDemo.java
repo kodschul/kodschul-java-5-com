@@ -10,10 +10,14 @@ public class ClassesDemo {
     public static void bankCards() {
 
         BankAccount aliceBk = new BankAccount("Alice");
+
+        aliceBk.deposit(1000);
         aliceBk.showBalance();
 
-        BankCard visa = aliceBk.registerVisaCard();
+        BankCard aliceVisa = aliceBk.registerVisaCard();
+        aliceVisa.purchase("Computer", 1000);
 
+        aliceBk.showBalance();
     }
 
     public static void bankTransferDemo() {
@@ -56,6 +60,13 @@ public class ClassesDemo {
     public static void playerDemo(String[] args) {
 
         Player p1 = new Player("Alice", 10);
+
+
+
+
+
+
+        
 
         p1.attempts = 10000000;
 
