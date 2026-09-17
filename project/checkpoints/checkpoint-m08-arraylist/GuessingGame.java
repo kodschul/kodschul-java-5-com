@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class GuessingGame {
 
     public static void main(String[] args) {
+
         int attemptsNeeded = playRound();
         System.out.println("Attempts needed: " + attemptsNeeded);
     }
@@ -22,8 +23,7 @@ public class GuessingGame {
             if (guess == targetNumber) {
                 System.out.println("Correct! The number was " + targetNumber + ".");
                 return attempt;
-            } else if (guess 
-                    < targetNumber) {
+            } else if (guess < targetNumber) {
                 System.out.println("Too low.");
             } else {
                 System.out.println("Too high.");

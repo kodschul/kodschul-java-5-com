@@ -7,6 +7,10 @@ public class Variables {
         char difficulty = 'E';
         String playerName = "Anna";
 
+
+        final int MAX_ATTEMPTS = 100;
+
+
         System.out.println("Player: " + playerName);
         System.out.println("Attempts: " + attempts);
         System.out.println("Average: " + average);

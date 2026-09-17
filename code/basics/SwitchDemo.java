@@ -3,6 +3,8 @@ public class SwitchDemo {
     public static void main(String[] args) {
         int day = 3;
 
+        String dayText = "";
+
         String dayName = switch (day) {
             case 1 -> "Monday";
             case 2 -> "Tuesday";
@@ -15,6 +17,14 @@ public class SwitchDemo {
 
         // classic switch with fall-through (each case needs its own break)
         String difficulty = "2";
+
+        String difficultyText = switch (difficulty) {
+            case "1" -> "Easy";
+            case "2" -> "Hard";
+            default -> "Unknown diff";
+        };
+        System.out.println(difficultyText);
+
         switch (difficulty) {
             case "1":
                 System.out.println("Easy");

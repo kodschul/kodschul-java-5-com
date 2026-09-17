@@ -8,7 +8,7 @@ public class Strings {
         System.out.println("upper: " + name.trim().toUpperCase());
         System.out.println("lower: " + name.trim().toLowerCase());
         System.out.println("contains 'nn': " + name.contains("nn"));
-        System.out.println("replace: " + name.trim().replace("Anna", "Ben"));
+        System.out.println("replace: " + name.trim().replace("ANNA", "Ben"));
 
         String sentence = "Anna:4,Ben:7,Cem:2";
         String[] entries = sentence.split(",");

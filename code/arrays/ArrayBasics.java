@@ -7,7 +7,7 @@ public class ArrayBasics {
 
         System.out.println("First value: " + attemptHistory[0]);
         System.out.println("Length: " + attemptHistory.length);
-        System.out.println("Unset value (default 0): " + attemptHistory[2]);
+        System.out.println("Unset value (default 0): " + attemptHistory[3]);
 
         int[] scores = { 90, 85, 77, 100, 63 };
         System.out.println("Third score: " + scores[2]);

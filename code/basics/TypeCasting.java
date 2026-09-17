@@ -14,6 +14,10 @@ public class TypeCasting {
         System.out.println("parsed \"42\" -> " + (parsed + 1));
 
         int number = 7;
+
+        String numText = "" + number;
+        numText = String.format("%d", number);
+
         String asText = String.valueOf(number);
         System.out.println("number " + number + " -> String \"" + asText + "\"");
     }
