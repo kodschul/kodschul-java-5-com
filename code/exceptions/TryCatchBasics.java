@@ -5,11 +5,15 @@ public class TryCatchBasics {
         int b = 0;
 
         try {
-            int result = a / b;
+            int result = Integer.parseInt("e") / b;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero.");
+        } catch (Exception e) {
+            System.out.println("Something went wrong sorry!!" + e);
         }
+
+        System.exit(0);
 
         int[] values = { 1, 2, 3 };
         try {
@@ -17,7 +21,7 @@ public class TryCatchBasics {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Index out of bounds.");
         } finally {
-            System.out.println("This always runs, error or not.");
+            System.out.println("Enter a num please!");
         }
 
         System.out.println("Program continues.");
